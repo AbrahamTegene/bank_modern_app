@@ -9,7 +9,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
       {/* all icons */}
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
-    {/* content of each paragraph */}
+    {/* content of each paragraph status
+     */}
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
         {title}
